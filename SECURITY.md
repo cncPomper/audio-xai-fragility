@@ -29,4 +29,4 @@ This is a volunteer-maintained open source project. Security reports are taken s
 
 ## Supported Versions
 
-Security fixes are applied to the latest release on the `main` branch. There is no backport policy for older versions.
+Security fixes are applied to the latest release on the `master` branch. There is no backport policy for older versions.
