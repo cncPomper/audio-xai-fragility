@@ -103,3 +103,7 @@ clean-test:
 publish:
     uv build
     uv publish
+
+# Launch the dashboard
+tb:
+    uv run python -m tensorboard.main --logdir=runs
