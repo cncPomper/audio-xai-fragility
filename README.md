@@ -2,6 +2,10 @@
 
 # The real repo is here [Audio-XAI](https://github.com/cncPomper/Audio-XAI)
 
+# Milestone
+
+- 02.04.2026: acquiring access Athena super computer (GPU A100) 🌐🎉🎉
+
 [![PyPI version](https://badge.fury.io/py/Audio-XAI-Fragility.svg)](https://badge.fury.io/py/Audio-XAI-Fragility)
 
 A project about Audio models and it's fragility
