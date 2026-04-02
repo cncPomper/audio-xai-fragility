@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "Audio-XAI-Fragility"
-version = "0.0.5"
+version = "0.0.6"
 description = "A project about Audio models and it's fragility"
 readme = "README.md"
 authors = [
@@ -108,7 +108,7 @@ package = true
 default-groups = ["dev"]
 
 [tool.bumpversion]
-current_version = "0.0.5"
+current_version = "0.0.6"
 commit = true
 tag = true
 allow_shell_hooks = true
