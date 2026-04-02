@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "Audio-XAI-Fragility"
-version = "0.0.3"
+version = "0.0.4"
 description = "A project about Audio models and it's fragility"
 readme = "README.md"
 authors = [
@@ -108,9 +108,9 @@ package = true
 default-groups = ["dev"]
 
 [tool.bumpversion]
-current_version = "0.0.3"
+current_version = "0.0.4"
 commit = true
 tag = true
 allow_shell_hooks = true
-pre_commit_hooks = ["uv run --python=3.12 ruff check .", "uv run --python=3.12 pytest -q"]
+pre_commit_hooks = ["ruff check .", "uv run --python=3.12 pytest -q"]
 post_commit_hooks = ["git push", "git push --tags"]
