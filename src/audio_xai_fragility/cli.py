@@ -17,10 +17,12 @@ def main() -> None:
     console.print("See Typer documentation at https://typer.tiangolo.com/")
     utils.do_something_useful()
 
+
 @app.command()
 def hello(name: str = "world") -> None:
     """Print 'Hello, world!' to the console."""
     h.hello(name)
+
 
 @app.command()
 def peaq_demo(sr: int = 16000) -> None:
