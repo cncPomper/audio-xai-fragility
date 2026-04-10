@@ -4,9 +4,11 @@
 """Tag the current version and create a GitHub release."""
 
 import subprocess
+import sys
+from importlib import import_module
 from pathlib import Path
 
-import tomllib
+tomllib = import_module("tomllib" if sys.version_info >= (3, 11) else "tomli")
 
 
 def _run(*cmd: str) -> None:
